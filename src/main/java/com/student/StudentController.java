@@ -12,6 +12,7 @@ public class StudentController {
 	Student student;
 	@GetMapping("getStudent")
 	public String getStudent() {
+		System.out.println("GIT-----");
 		return student.getMessage();
 	}
 }
