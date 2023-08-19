@@ -10,6 +10,7 @@ public class SeniorStudent implements Student {
 		System.out.println("hi");
 		System.out.println("hello");
 		System.out.println("how are you");
+		System.out.println("my name is ****");
 		// TODO Auto-generated method stub
 		return "Implementation of senior student";
 	}
