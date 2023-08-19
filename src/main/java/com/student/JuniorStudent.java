@@ -10,6 +10,6 @@ public class JuniorStudent implements Student {
 	
 	public String getMessage() {
 		// TODO Auto-generated method stub
-		return "junior student implementation";
+		return "junior student implementation new Student";
 	}	
 }
