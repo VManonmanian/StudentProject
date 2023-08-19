@@ -2,11 +2,14 @@ package com.student;
 
 import org.springframework.stereotype.Service;
 
-@Service("senior")
+@Service("seniorStudent")
 public class SeniorStudent implements Student {
 
 	@Override
 	public String getMessage() {
+		System.out.println("hi");
+		System.out.println("hello");
+		System.out.println("how are you");
 		// TODO Auto-generated method stub
 		return "Implementation of senior student";
 	}
